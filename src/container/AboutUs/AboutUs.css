@@ -44,3 +44,19 @@
     margin: 2rem 0;
     color: var(--color-grey);
 }
+@media screen and (min-width:2000px){
+.app__aboutus-content_knife{
+    height: 1110px;
+}
+}
+@media screen and (min-width:900px){
+    .app__aboutus-content{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:650px){
+    .app__aboutus-overlay img{
+        width: 80%;
+        height: 320px;
+    }
+}
